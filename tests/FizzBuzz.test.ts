@@ -70,4 +70,9 @@ describe('FizzBuzz', () => {
         const result = FizzBuzz.compute(14);
         expect(result).toBe('14');
     });
+
+    it('compute 15', () => {
+        const result = FizzBuzz.compute(15);
+        expect(result).toBe('FizzBuzz');
+    });
 });
