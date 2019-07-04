@@ -1,6 +1,6 @@
 # TODO list
 
-- fizzbuzz(1) => '1'
+- ~~fizzbuzz(1) => '1'~~
 - fizzbuzz(2) => '2'
 - fizzbuzz(3) => 'Fizz'
 - fizzbuzz(4) => '4'
