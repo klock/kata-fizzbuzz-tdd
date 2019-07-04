@@ -20,4 +20,9 @@ describe('FizzBuzz', () => {
         const result = new FizzBuzz().compute(4);
         expect(result).toBe('4');
     });
+
+    it('compute 5', () => {
+        const result = new FizzBuzz().compute(5);
+        expect(result).toBe('Buzz');
+    });
 });
