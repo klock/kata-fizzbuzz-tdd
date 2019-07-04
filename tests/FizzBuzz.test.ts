@@ -25,4 +25,9 @@ describe('FizzBuzz', () => {
         const result = new FizzBuzz().compute(5);
         expect(result).toBe('Buzz');
     });
+
+    it('compute 6', () => {
+        const result = new FizzBuzz().compute(6);
+        expect(result).toBe('Fizz');
+    });
 });
