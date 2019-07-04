@@ -30,4 +30,19 @@ describe('FizzBuzz', () => {
         const result = FizzBuzz.compute(6);
         expect(result).toBe('Fizz');
     });
+
+    it('compute 7', () => {
+        const result = FizzBuzz.compute(7);
+        expect(result).toBe('7');
+    });
+
+    it('compute 8', () => {
+        const result = FizzBuzz.compute(8);
+        expect(result).toBe('8');
+    });
+
+    it('compute 9', () => {
+        const result = FizzBuzz.compute(9);
+        expect(result).toBe('Fizz');
+    });
 });
