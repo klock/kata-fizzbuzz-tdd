@@ -1,0 +1,22 @@
+#####################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+package-lock.json
+
+#####################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+
+
