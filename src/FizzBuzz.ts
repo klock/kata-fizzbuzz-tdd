@@ -12,5 +12,9 @@ export class FizzBuzz {
         if (input === 3) {
             return 'Fizz';
         }
+
+        if (input === 4) {
+            return '4';
+        }
     }
 }
